@@ -16,20 +16,20 @@ pyautogui.PAUSE = 1
 def beatTime():
     pyautogui.PAUSE = 1
 
-    #apertar win
+    #Press win
     pyautogui.press('win')
 
-    #escrever chrome
+    #write Chome
     chrome = 'Google Chrome'
     pyperclip.copy(chrome)
     pyautogui.hotkey('ctrl', 'v')
     pyautogui.press('enter')
 
-    #clicar no perfil trabalho
+    #Click work
     timer.PAUSE = 4
     #pyautogui.click(x=958, y=569)
 
-    #apertar ctrl t
+    #press ctrl t
     pyautogui.hotkey('ctrl', 't')
     #digitar link
     ponto = 'https://app.pontomaisweb.com.br/#/meu_ponto/registro_de_ponto'
